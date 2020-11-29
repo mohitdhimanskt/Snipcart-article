@@ -11,4 +11,4 @@ query Products($id: ID!) {
       options
     }
   }
-}
+}   

@@ -45,6 +45,7 @@ export default {
           .map(([key, value]) => ({[`data-item-custom${index + 1}-${key.toString().toLowerCase()}`]: value})))
         .reduce((acc, curr) => acc.concat(curr), [])
         .reduce((acc, curr) => ({...acc, ...curr}))
+        console.log(product )
     }
   },
   apollo: {
