@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-auth",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt build && nuxt export"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.6.5",
+    "core-js": "^3.6.5",
+    "graphql-tag": "^2.11.0",
+    "nuxt": "^2.14.7",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@nuxtjs/tailwindcss": "^3.2.0"
+  }
+}
