@@ -26,7 +26,7 @@ export default {
   },
   apollo: {
     products: {
-      prefetch: true,
+      prefetch: false,
       query: productsQuery
     }
   }
